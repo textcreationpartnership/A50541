@@ -1,0 +1,917 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The rib restored, or, The honour of marriage a sermon preached in Dionis-Back Church, occasioned by a wedding the 5 day of June, 1655 / by Richard Meggott.</title>
+            <author>Meggott, Richard, d. 1692.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1656</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 76 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A50541</idno>
+            <idno type="STC">Wing M1619</idno>
+            <idno type="STC">ESTC R30060</idno>
+            <idno type="EEBO-CITATION">11239919</idno>
+            <idno type="OCLC">ocm 11239919</idno>
+            <idno type="VID">47041</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A50541)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 47041)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1446:21)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The rib restored, or, The honour of marriage a sermon preached in Dionis-Back Church, occasioned by a wedding the 5 day of June, 1655 / by Richard Meggott.</title>
+                  <author>Meggott, Richard, d. 1692.</author>
+               </titleStmt>
+               <extent>[2], 28 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by J.G. for Nath. Webb and Will. Grantham ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1656.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of the original in the Union Theological Seminary Library, New York.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Marriage --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-05</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2010-05</date>
+            <label>Simon Charles</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:47041:1"/>
+            <p>THE RIB RESTORED: OR, The Honour of MARRIAGE. A SERMON Preached in
+<hi>Dionis-Back</hi>-Church, occaſioned by a Wedding, the 5. day of
+<hi>June,</hi> 1655.</p>
+            <p>By RICHARD MEGGOT, Preacher of the Word, to the Pariſh of
+<hi>Ford</hi> in <hi>Suſſex.</hi>
+            </p>
+            <q>
+               <bibl>MARK 10.6,7.</bibl>
+               <p>
+                  <hi>But from the beginning of the Creation, God made them Male and Female: for this cauſe ſhall a Man leave his Father and Mo<g ref="char:EOLhyphen"/>ther, and cleave to his Wife.</hi>
+               </p>
+            </q>
+            <q>
+               <bibl>Chryſoſt. tom. 1.</bibl>
+               <p>
+                  <gap reason="foreign" resp="#OXF" extent="1 span">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</p>
+            </q>
+            <q>
+               <bibl>Agellius l. 1. c. 6.</bibl>
+               <p>
+                  <hi>Quoniam ita natura tradidit, ut nec cum illis (uxoribus) ſatis commodè, nec ſine illis ullo modo vivi poſſit: ſaluti perpetuae, potiùs quàm brevi voluptati conſulendum.</hi>
+               </p>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>J. G.</hi> for NATH: WEBB, and WIL: GRANTHAM, at the Black-Bear in St. <hi>Paul</hi>'s Church-yard, neer the little North door of <hi>Pauls,</hi> 1656.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:47041:2"/>
+            <pb facs="tcp:47041:2"/>
+            <head>To the VVorſhipfull <hi>John Bayles</hi> of <hi>Wilbey,</hi> in the County of <hi>Suffolke,</hi> Eſquire. <hi>Grace and Peace.</hi>
+            </head>
+            <opener>
+               <salute>Worthy Sir,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">T</seg>He Publication of this crude diſcourſe, is a ſufficient argument how incapable I am to reſiſt friends importunities. I am not inſen<g ref="char:EOLhyphen"/>ſible, that there are too many defects in it, and I know thoſe of maturer &amp; better ſeaſoned judgements, may finde more: But they that are the moſt judicious, are the leaſt cenſorious. Wherfore upon a ſuppoſition that I might be prevailed with, to wave ſuch things as theſe, yet notwithſtanding I might have reaſons e<g ref="char:EOLhyphen"/>now to oppoſe all entreaties; I will not repeat what I have ſo often urged upon this occaſion, <hi>viz.</hi> My juſt deſire of a cloſe re<g ref="char:EOLhyphen"/>tirement, and naturall averſion, from any thing that might draw many eyes upon me. Beſides all this, I have often reflected (with a more than common diſturbance) upon the miſerale diſeaſe, and diſtemper of the age we live in; the generality of men among us being compounded of Opinion and Paſſion, as of a Soule and Body: what one approveth, another diſliketh; what one affecteth, another diſtaſteth. It is very ſad, but it is too true, a Spirit of giddineſſe and diſtraction is gone out upon the Inhabitants of this diſ-joynted Nation; and what the Angell of the Lord ſaid to <hi>Hagar</hi> concerning <hi>Iſhmael,</hi> is true of each particular Diviſion and Separation; <hi>their hand is againſt e<g ref="char:EOLhyphen"/>very Man, and every Mans hand is againſt them:</hi>
+               <note place="margin">Gen.
+16.12.</note> each by an uncharitable partiality inveighing against, and condemning of every one but themſelves. And thus pre<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>udice, a low and ſinfull prejudice, unworthy of Men, much more of Chriſtians, is the aſcendant upon moſt mens Spirits. And they that are the moſt obſcure, no queſtion taſte, but thoſe that are moſt pub<g ref="char:EOLhyphen"/>lick, ſhall be ſure to drinke a double portion of this bitter cup. But woe to him that maketh the Croſſe a ſtumbling block. As we ſhould not doe the leaſt evill, that the greateſt good may come of it, that being to diſtruſt Gods power, as if he could not effect<pb facs="tcp:47041:3"/>it; ſo neither ſhould we refraine from the leaſt good, for the greateſt evill that may come of it, that being to diſtruſt his good<g ref="char:EOLhyphen"/>neſſe, as if he would not divert it.</p>
+            <p>Sir, Your Daughter was the occaſion, that emboldneth me to make you the Patron of this Sermon. I muſt confeſſe, I could have wiſhed that my <hi>libamina,</hi> the firſt-fruits of my labours to the world, had been ſomething more generally uſefull for the building up of Soules in their moſt holy Faith, and promoting of the power of godlineſſe: this reacheth onely the particular duties of the Husband and the Wife. But theſe indeed are ma<g ref="char:EOLhyphen"/>ny, and exceeding weighty. The <hi>Spaniard</hi> hath a proverb,
+<hi>There is more required in Marriage, than two paire of Legs in one paire of Sheets.</hi> It is not to be attempted with a bruitiſh and ſenſuall minde. O that all that are tyed in this ſacred knot, would conſider in good earnest, and lay to heart what it is the Lord requireth of them! I ſhould thinke my ſelfe exceeding happy, and account it a mercy to give thankes for, Evening, Morning, and at Noon: might it pleaſe the Al<g ref="char:EOLhyphen"/>mighty, to accompany with his bleſsing, theſe weake endeavours of the unworthiest of all the labourers in his Vineyard, to make them inſtrumentall for the rectifying and remedying thoſe dan<g ref="char:EOLhyphen"/>gerous abuſes in chooſing of thoſe vile miſcariages that are too frequent in living with this relation.</p>
+            <p>The ſeed I ſowed in that Judicious Auditory, that was aſſem<g ref="char:EOLhyphen"/>bled upon this occaſion was good, (O that it might bring forth much fruit!) pardon the hand that cattered it, it was unskil<g ref="char:EOLhyphen"/>full. I then drew a Copy, (O that all whom it may concerne, that now ſhall look on it, would write after it!) not excepting at the unhandſomneſſe, but pondering the uſefulneſſe of it. Theſe are the hopes and prayers of</p>
+            <closer>
+               <salute>Sir,</salute>
+               <signed>Your affectionate Nephew to ſerve you in the Lord,
+<hi>Richard Meggot.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="errata">
+            <p>Errata. p. 6. l. 37. r. infructuoſa p. 15. l. 20. r. will p. 16. marg. l. 9. r. filiorum</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:47041:3"/>
+            <head>THE RIB RESTORED: OR, <hi>The Honour of Marriage.</hi>
+            </head>
+            <epigraph>
+               <q>
+                  <bibl>GEN. 2.18.</bibl>
+                  <p>And the Lord God ſaid, It is not good that the Man ſhould be alone, I will make him an help meet for him.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">W</seg>Hen the ſtately ſtructure of this materiall World firſt ſtarted out of nothing, at the call of the firſt Being; the method of the Creation proceeded commonly by Twins and Paires. If you look upon the Univerſe, there is a Heaven and an Earth; If upon the Hea<g ref="char:EOLhyphen"/>vens, there is a Sun and Moon; If upon the Earth, there is a Sea and Land; If upon the Time, there is a Day and Night; If upon the Seaſons, there is a Winter and Summer; If upon the Creatures, there is a Male and Female; If upon our Na<g ref="char:EOLhyphen"/>tures, there is a Soule and Body: finally, if upon our ſelves compounded, the Flowers and Pinacles of corporeall exiſten<g ref="char:EOLhyphen"/>cies.<pb n="2" facs="tcp:47041:4"/>
+               <hi>The Lord God ſaid, it is not good that the Man ſhould be alone, I will make him an help meet for him.</hi>
+            </p>
+            <p>My text is the <hi>Banes</hi> of <hi>Matrimony;</hi> the firſt, that ever was publiſhed: where <hi>Adam</hi> is asked thrice in once by the
+<hi>Bleſſed Trinity:</hi> None can ſhew any lawfull cauſe why he and
+<hi>Eve</hi> ſhould not be joyned together: there is one why they ſhould: for, <hi>The Lord God ſaid, It is not good,</hi> &amp;c.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">division </seg>
+               </label> In which words you may be pleaſed to obſerve theſe three generalls,
+<list>
+                  <item>1. An Introduction.</item>
+                  <item>2. An Aſſertion.</item>
+                  <item>3. A Reſolution.</item>
+               </list>
+            </p>
+            <p>The Introduction is full of tranſcendent Majeſty, <hi>And the Lord God ſaid.</hi>
+            </p>
+            <p>The Aſſertion confirmes an experimentall verity, <hi>It is not go<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d that the Man ſhould be alone.</hi>
+            </p>
+            <p>The Reſolution teſtifieth an unwearied bounty, <hi>I will make him an help meet for him.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">general </seg>1</label> The firſt of theſe is the Introduction, <hi>And the Lord God ſaid.</hi>How the <hi>Almighty here</hi> ſpake, whether <hi>eternally,</hi> in his owne decrees; or
+<hi>Syllabically</hi> by the uſe of inſtruments; or
+<hi>Miraculouſly,</hi> by the revelation of <hi>Angels;</hi> or
+<hi>Internally</hi> in the mind of <hi>man;</hi> or ſupernaturally by any other meanes, were a queſtion not more intricate than unſeaſonable for this aſſembly: wherefore following S. <hi>Auguſtine</hi>'s counſell,<note place="margin">
+                  <hi>Auguſtin. in Gen. ad littram.</hi>
+               </note>
+               <hi>quo<g ref="char:EOLhyphen"/>modo non eſt quod quaeramus, ſed potiùs quid dixerit intelliga<g ref="char:EOLhyphen"/>mus,</hi> to enquire not ſo much how he ſpake, as what he ſpake. I ſhall wholly wave it, entreating your attention to the two remaining parts of my text, whereof the former is the</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">general </seg>2</label> Aſſertion. <hi>It is not good that the Man ſhould be alone:</hi> wherein take notice of theſe two particulars;
+<list>
+                  <item>1. The Subject, <hi>Man alone.</hi>
+                  </item>
+                  <item>2ly. The Praedicate, <hi>It is not good.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>1</label> I will begin firſt, with the firſt of theſe, taking a brief view of the Subject, <hi>Man alone.</hi>
+            </p>
+            <p>For the better underſtanding whereof, you muſt know, Man may be taken under three conſiderations. <pb n="3" facs="tcp:47041:4"/>
+               <list>
+                  <item>Univerſally.</item>
+                  <item>Particularly.</item>
+                  <item>Indefinitely.</item>
+               </list>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">consideration </seg>1</label> Firſt Univerſally, as including every man, each ſingular indi<g ref="char:EOLhyphen"/>viduall without exception: but in this ſenſe it muſt not be ad<g ref="char:EOLhyphen"/>mitted here, for that would make the meaning of the words to be, <hi>It were not good for any Man to be alone;</hi> but the Apo<g ref="char:EOLhyphen"/>ſtle telleth you, 1 <hi>Cor.</hi> 7. of being alone in a ſingle life,
+'tis good for a Man ſo to be;<note place="margin">1 Cor. 7.26.</note> and in the 19. of S. <hi>Matthew,</hi> you reade of <hi>Eunuchs</hi> that have made themſelves ſo for the Kingdome of Heavens ſake,<note place="margin">Mat.
+19.12.</note> 
+               <hi>Eunuchs</hi>
+               <note n="b" place="margin">
+                  <gap reason="foreign" resp="#OXF" extent="1 span">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Chryſ. in loc.</note>
+               <gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp;c. <hi>Chryſoſtome</hi> expoundeth it, not with <hi>Origen,</hi> by diſmembring their bodyes, but with continence by ſuppreſ<g ref="char:EOLhyphen"/>ſing their deſires: an action ſo farre from being condemned, that it is adviſed, <hi>ver.</hi> 12.
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>He that is able to re<g ref="char:EOLhyphen"/>ceive it, let him receive it.</hi> To this purpoſe is that obſerva<g ref="char:EOLhyphen"/>tion of St.
+<hi>Cyprian,</hi>
+               <note n="c" place="margin">
+                  <hi>Cum adhuc rudis mundui &amp; inanis eſt, copia foecunditatis ge<g ref="char:EOLhyphen"/>neratur, propaga<g ref="char:EOLhyphen"/>mur ac creſci<g ref="char:EOLhyphen"/>mus ad hu<g ref="char:EOLhyphen"/>mani generis augmentum; cum jam refer<g ref="char:EOLhyphen"/>tus eſt orbis &amp; mundus impletus; qui capere cont<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nentiam poſsunt, spadonum more viventes caſtrantur ad regnum.</hi> Cyprian. lib. de H<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>b. Virg.</note> 
+               <hi>prima Dei ſententia creſcere &amp; genera<g ref="char:EOLhyphen"/>re praecepit, ſecunda continentiam ſuaſit:</hi> in the beginning of the World, when it was un-inhabited, Matrimony was com<g ref="char:EOLhyphen"/>manded,
+<note n="d" place="margin">Gen. 1.28.</note> 
+               <hi>Increaſe and Multiply:</hi> in proceſſe of time, when more peopled, continency was commended,
+<note n="e" place="margin">1 Cor. 7.1.</note> 
+               <hi>It is good for a Man not to touch a Woman.</hi> Good according to the
+<note n="f" place="margin">
+                  <hi>Bifariam crit ei bonum eſſe ſoli, nempè &amp; honeſtum licitumque &amp; utile ac commodum, &amp;c.</hi> Zanchius lib. 1. cap. 1. de Hom. creat.</note> School<g ref="char:EOLhyphen"/>men two wayes; firſt it is good, that is, it is lawfull; there is no indiſpenſable obligation laid on us, engaging us to Marry: and then ſecondly, it is good, that is, it is profitable; by it is avoided the cares of the World, the
+<note n="h" place="margin">1 Cor. 7.28.</note>
+               <gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the trouble in the fleſh: So that you muſt not underſtand it U<g ref="char:EOLhyphen"/>niverſally, when you heare, <hi>It is not good that the Man ſhould be alone.</hi> But then
+<note n="g" place="margin">
+                  <hi>Etiam Judaei qui praeceptum eſſe viris <gap reason="foreign" resp="#OXF" extent="1 word">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> aiust, uno ore concedunt tamen dispenſatum eſse cum iis qui aſſiduo legis ſtudio vacare volunt, aliàs etiam immunibus ab acriori carnis ſtimulo.</hi> Maimon. cap 15. Halach, Iskoth.</note>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">consideration </seg>2</label> 2ly. Man may be taken particularly and ſingularly for the firſt man: and if you ſo underſtand it here, the meaning of the<pb n="4" facs="tcp:47041:5"/>words will be, <hi>It is not good that Adam ſhould be alone; Alone,</hi> that is, <hi>conjuge deſtitutus cùm animantes caeterae conjugatae ſint,</hi> (as
+<note n="i" place="margin">
+                  <hi>Tremellius in locum.</hi>
+               </note>
+               <hi>Tremel.</hi> paraphraſeth it) without a companion, without a woman, when all the other creatures had their mates and e<g ref="char:EOLhyphen"/>quals. You may have read (perhaps) of one who for his perverſe and froward diſpoſition, was called
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, a hater of mankinde &amp; company; but he was an Hetroclite, a Monſter in nature: Man is a
+<note n="k" place="margin">
+                  <gap reason="foreign" resp="#OXF" extent="1 span">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Ariſtot. Ethic. lib 8. cap. 14.</note> ſociable creature, to whom a continuall ſolitarineſſe could not but be exceeding tedious. Imagine our firſt Parent in the midſt of Paradiſe, of that flouriſhing
+<hi>Eden,</hi> where he wanted nothing, either for uſe or pleaſure. Suppoſe him Lord of the Mannor of the Earth, and his table furniſhed with the Cattell on a thouſand hills; where he had the Beaſts of the field for his obedient ſervitors, and the Fowles of the Aire for a conſort of wilde Muſitians; in ſo much that his eyes were ſatisfied with ſeeing, and all his ſen<g ref="char:EOLhyphen"/>ſes feaſted with enjoying: even in ſuch a condition, to have no converſe, but with the birds and brutes, to have no ac<g ref="char:EOLhyphen"/>quaintance, but with the Mountaines and Rivers; to be al<g ref="char:EOLhyphen"/>wayes deſolate without any aſſociate, could not but abate his contentment, but leaven his happineſſe: you eaſily per<g ref="char:EOLhyphen"/>ceive it, God graciouſly foreſaw it. <hi>It is not good that the Man ſhould be alone.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">consideration </seg>3</label> 3ly. Man may be taken indefinitely, as comprehending mankinde in generall, including not onely
+<hi>Adam,</hi> but his po<g ref="char:EOLhyphen"/>ſterity. This expoſition is ſufficiently warranted by the A<g ref="char:EOLhyphen"/>poſtles Poſition, <hi>Heb.</hi> 13.4. <hi>Marriage is honourable in all,</hi>
+               <note place="margin">Heb. 13.4.</note> not only
+<note n="l" place="margin">
+                  <hi>Cùm diſertè Apostolus con<g ref="char:EOLhyphen"/>jugium honora<g ref="char:EOLhyphen"/>tum eſſe dicat, quid ſentiendum eſt de illâ Hie<g ref="char:EOLhyphen"/>ronymi ſententiâ, qui Matrimonium non inter bona, ſed inter mi<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>ùs mala numerat?</hi> Beza. in loc.</note> 
+               <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, but
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, not only lawfull but Honourable: in ſo much that the Romaniſts reckon it among their Sacra<g ref="char:EOLhyphen"/>ments, and
+<note n="m" place="margin">
+                  <hi>Cùm Ma<g ref="char:EOLhyphen"/>trimonium per ſenſibilia ſigna ſanctitatis
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>emedium contra peccatum homini exhibeit, ſacramentum eſt.</hi> Aquinas Sup. 3. Quaeſt. 2. Art. 1.
+<hi>Matrimonium quod in fide Chriſti contrahitur habet, quod gratiam conferat ad ca operanda adjuvantem quae in Matrimonio requiruntur.</hi> Idem. Sup. 3. Q.
+42. Art. 3.</note> 
+               <hi>Aquinas</hi> will have it <hi>conferre gratiam,</hi> conferre grace on thoſe that enter into it. Wherefore (by the way) I cannot but wonder why ſometimes they are ſo much upon the other extreame, to vilifie and diſparage it, as that Pope <hi>Siri<g ref="char:EOLhyphen"/>cius,</hi>
+               <pb n="5" facs="tcp:47041:5"/>who writing to the Biſhops of <hi>Spaine,</hi> calleth it
+<note n="n" place="margin">
+                  <hi>Zanchius tom.</hi> 4. <hi>in</hi> 7.
+<hi>praecep<g ref="char:EOLhyphen"/>tum.</hi>
+               </note> 
+               <hi>carnis pollutionem &amp; immunditiem,</hi> the pollution and defilement of the fleſh: but now I remember me, S.
+<hi>Paul</hi> maketh it one of the characters of them that ſhould depart from the Faith, 1 <hi>Tim.</hi> 4 3. that they ſhould forbid to Marry. What ſhall we call that pollution that was inſtituted before
+<note n="o" place="margin">
+                  <hi>Quem libet hominem cui non eſt uxor, minimè eſse hominem: cùm etiam in ſcripturâ di<g ref="char:EOLhyphen"/>catur maſculum &amp; ſaeminam creavit cos &amp; vocavit nomen corum, Adam ſeu hominem. R. Eliezer dixit in Gem. Bab. qui<g ref="char:EOLhyphen"/>cunque negligie praeceptum de multiplicatione humani generis habendum eſſe veluti Homicidam.</hi>
+               </note> corrupti<g ref="char:EOLhyphen"/>on? or impiety that was ordained in the ſtate of Innocen<g ref="char:EOLhyphen"/>cy? It was the
+<note n="p" place="margin">
+                  <gap reason="foreign" resp="#OXF" extent="1 span">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, &amp;c. <hi>Chryſoſt. in Gen Hom.</hi> 21.</note>
+               <hi>Greek</hi> Fathers deſcant upon <hi>Gen.</hi> 5.22. that in the ſame
+<hi>verſe</hi> the Holy Ghoſt ſaith of <hi>Enoch, that he walked with God, and begat Sons and Daughters,</hi> to teach us (ſaith he)
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp;c. that Matrimony and Piety are not inconſiſtent: For though if you conſider it abſolutely, Man alone may be good; yet if relatively, <hi>It is not good that the Man ſhould be alone;</hi> which leadeth me to the ſecond Particular of this ſecond Ge<g ref="char:EOLhyphen"/>nerall, from the ſubject, <hi>Man alone,</hi> to the praedicat, it is not good that he ſhould ſo be, <hi>It is not good,</hi> &amp;c.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>2</label>
+               <hi>It is not good.</hi> 'Tis a knowne diſtinction among the Moral<g ref="char:EOLhyphen"/>liſts, of a three-fold good,
+<hi>honeſtum, utile, jucundum,</hi>
+               <list>
+                  <item>Honeſt.</item>
+                  <item>Pleaſant.</item>
+                  <item>Profitable.</item>
+               </list>
+            </p>
+            <p>In regard of the firſt of theſe, all is good that is not ſinne: In reſpect of the two latter, it is here meant, <hi>It is not good.</hi> Wherefore the Septuagint have aptly tranſlated the Hebrew,
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> not by
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, but
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and <hi>Mercer</hi> hath well explained it, <hi>non eſt commodum, utile, expediens:</hi>
+               <note place="margin">
+                  <hi>Mercerus in Gen.</hi>
+               </note> it is not convenient, expedient: if you will, <hi>It is not ſo good that the Man ſhould be alone.</hi>
+            </p>
+            <p>An aſſertion whereof, according to the fancies of divers writers, I meet with divers reaſons. <hi>Rabbi Salmo</hi>'s gloſſe is,
+<hi>It is not good,</hi>
+               <note place="margin">
+                  <hi>R. Salom.</hi>
+               </note> as in regard of Gods honour, who is a jealous<pb n="6" facs="tcp:47041:6"/>God, leaſt if there were but one man in the world, to whom all the Creatures paid their homage, it ſhould be thought there were two Gods, <hi>Adam</hi> ſhould be accounted the God of Earth, and <hi>Jehovah</hi> the God of Heaven; but this is but the froth of a <hi>Rabbin</hi>'s braines: if there were no Man (pray) who ſhould thinke ſo?</p>
+            <p>It is not good (ſaith <hi>Pererius</hi>) in reſpect of the Angels,<note place="margin">
+                  <hi>Pererius in loc.</hi>
+               </note> 
+               <hi>Quorum diminutio ob ruinam malorum spirituum ſupplemen<g ref="char:EOLhyphen"/>to hominum reſarcienda erat:</hi> whoſe number in Heaven being leſſened by the apoſtaſie of them that
+<note n="q" place="margin">Jude 6.</note> kept not their firſt ſtations, was to be ſupplyed by the
+<note n="r" place="margin">Heb. 12.23.</note> 
+               <hi>Spirits of juſt men made perfect,</hi> and becauſe there muſt be ſuch, <hi>It is not good,</hi> &amp;c.</p>
+            <p>It is not good (ſaith <hi>Gerard</hi>)<note place="margin">
+                  <hi>Gerard. in loc.</hi>
+               </note> if you look upon Mans nature, and diſpoſition, which being ſociable, could not without irk<g ref="char:EOLhyphen"/>ſomeneſſe beare ſuch a conſtant ſolitarineſſe, as to be alwayes without company.</p>
+            <p>I am unwilling to tyre you with tracing the conceits of the ſeverall expoſitors I have met with; to pitch upon ſome<g ref="char:EOLhyphen"/>thing I conceive moſt probable and profitable, take an ac<g ref="char:EOLhyphen"/>count of it in theſe three particulars.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>1</label> Firſt, it is not good in reſpect of mankinde, which then would not be propagated. Wherefore the Roman Hiſtorian<note place="margin">
+                  <hi>Florus,</hi> l 1. c. 1.</note> relating their raviſhing of the <hi>Sabine</hi> women, would excuſe it with this reaſon,
+<hi>res erat unius aet<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>tis populus virorum,</hi> with<g ref="char:EOLhyphen"/>out them mankinde would fayle from the earth and periſh. Upon this account among the <hi>Spartans,</hi> there was a <hi>paena</hi>
+               <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and
+<note n="t" place="margin">
+                  <hi>Plato de leg. lib.</hi> 6.</note>
+               <hi>Plato</hi> in his Lawes would have every one that refuſed to Marry after the 35. yeare of his age, puniſhed both in his Eſtate and Honour: In this regard the
+<note n="u" place="margin">
+                  <hi>Plut. Amat.</hi>
+               </note> elegant Mo<g ref="char:EOLhyphen"/>ralliſt ſtiles Wedlock, <gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, an helper of us mortals; if not the <hi>individuall,</hi> yet the
+<hi>species</hi> to immortality: for as by the fate of humanity, one generation paſſeth away; ſo by the fruit of Matrimony, another genera<g ref="char:EOLhyphen"/>tion cometh.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>2</label> 2ly. It is not good in regard of the Church, which then would not be increaſed: <hi>&amp; Chriſti mors</hi> (it is <hi>Carthuſian</hi>'s note) <hi>eſſet infructuoſus,</hi>
+               <note place="margin">
+                  <hi>Carthuſianus in loc.</hi>
+               </note> the death of Chriſt would have been leſſe fruitfull, and laid downe for a meaner purchaſe.<pb n="7" facs="tcp:47041:6"/>Had <hi>Adam</hi> been alwayes alone, there would have been no Church Militant, no choſen Generation, no holy Nation, no royall Prieſthood, no peculiar people unto God, zealous of good workes, no gathering of Saints together, no aſſemblies and multitudes to tune
+<hi>Hoſannahs</hi> and <hi>Hallelujahs;</hi> and all thoſe happy, happy ſoules, that have taſted the goodneſſe, the converting and ſanctifying goodneſſe of the Lord in the land of the living, would then have had no beeing. And then</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>3</label> 3ly. It is not good in regard of the Glory of God, which then would not have been ſo much manifeſted; had all man<g ref="char:EOLhyphen"/>kinde but <hi>Adam</hi> ſlept in their firſt Chaos, obſcured in the dark, and barren wombe of nothing; thoſe two eminent and reſplendent attributes of his Mercy and Juſtice, that gliſter and ſparkle in the Crownes and flames of the elect and re<g ref="char:EOLhyphen"/>probate, had been more concealed and clouded: there would have been no veſſells of Honour in the everlaſting manſions, no children of wrath in the conſuming <hi>Tophet:</hi> he would not have been glorified by the one, nor upon the other: the Sheep on the right hand had been ſtrangers to his ſurmount<g ref="char:EOLhyphen"/>ing goodneſſe, and the Goates on the left hand been unac<g ref="char:EOLhyphen"/>quainted with his avenging juſtice.</p>
+            <p>And thus I have briefly ſhewn you how in regard of God, of the Church, of our ſelves, <hi>It is not good that the Man ſhould be alone.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">objection </seg>
+               </label> But perhaps you will aske me (with the
+<hi>Manichees</hi>) what then meaneth S. <hi>Paeul.</hi> 1 <hi>Cor.</hi> 7.1.
+<hi>It is good for a man not to touch a woman?</hi> doe the Old Teſtament and the New con<g ref="char:EOLhyphen"/>tradict each other?</p>
+            <p>I know this is a day for Roſes and Violets, and as much as may be, I will decline the thornes of all ominous controver<g ref="char:EOLhyphen"/>ſies, onely take a ſhort Anſwer to take off the objection in theſe three diſtinctions.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">answer </seg>1</label> Firſt, <hi>Moſes</hi> ſpeaketh of Man when Innocent, the Apoſtle of him when corrupted; and you know that which before ſinne was a conveniency, by ſinne may be made a miſery; this being that, which will turne bread into ſtones, and fiſhes into Serpents.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">answer </seg>2</label> 2ly. You muſt take notice of a publick, and a private good:<pb n="8" facs="tcp:47041:7"/>in regard of the proper good of ſome particular perſons, it may be good for a man not to touch a woman, in reſpect of the common good of mankinde, <hi>It is not good that the Man,</hi> &amp;c.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">answer </seg>3</label> 3ly. There is a permanent and a temporary, if you will, an abſolute and relative good: a temporary good looketh onely upon the preſent condition, and as ſuch a good the Apoſtle commendeth a ſingle life, in regard of the perſecutions in his time: let him be his owne expoſitor, 1 <hi>Cor.</hi> 7.26. I ſuppoſe that this is good for the preſent diſtreſſe: a permanent good hath reſpect to a continuall duration, and ſo you have ſeen this of my Text is true, <hi>It is not good that the Man ſhould be alone.</hi>
+            </p>
+            <p>To winde up this in a word of Application, that may come home to all.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">application </seg>1</label> Firſt, <hi>It is not good that the man ſhould be alone.</hi> It is not good. This is the cauſe why he will make him an helpe. God makes goodneſſe the ground of his actions, Oh that we could learne to imitate him. It is <hi>Muſculus</hi>'s obſervation upon the place, <hi>Non dicit Nolo</hi> &amp;c.<note place="margin">
+                  <hi>Muſculus in loc.</hi>
+               </note> God doth not ſay, I will not that the man ſhould be alone, but it is not good. The Almighty that hath none to controll him, none that can ſay unto him, what doſt thou? confineth himſelfe to the eternall Law of goodneſſe: and what; ſhall Man, vain Man, that muſt give an account for all that he ſhall doe, minde no<g ref="char:EOLhyphen"/>thing in his actions, but the phantaſtick dictates of his owne corrupted will? Learne (my beloved) I beſeech you, in all your proceedings, to make God your patterne; to commune with your owne hearts, and conſult with your ſelves, of what you goe about, not onely whether it be profitable, or whe<g ref="char:EOLhyphen"/>ther it be honourable, or whether it be pleaſant, but alſo whether it be good or no. Were this queſtion the preface to all our undertakings, it would be a curb and bar to hold and bridle us from raſh enormities. Then the Hypocrite would leave off his cloſe diſſemblings, the intemperate his exceſſe of Riot, the Swearer his cuſtomary Oathes, the Wanton his enchanting dalliance, the Gallant his ſuperfluous vanities, yea all of us our particular infirmities and impieties, becauſe they are not good.</p>
+            <p>
+               <pb n="9" facs="tcp:47041:7"/>
+               <label type="milestone">
+                  <seg type="milestoneunit">application </seg>2</label> 2ly. <hi>It is not good that the Man ſhould be alone.</hi> If you look back upon the beginning of the verſe, you will finde it was the Lord God ſaid ſo;
+<note place="margin">
+                  <hi>Deus ille eſt, qui antequam nos nihil minùs co<g ref="char:EOLhyphen"/>gitemus quàm de uxore, praparat, as</hi> Z<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nc. l. 1. c 1. de cre<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> hom.</note> you read not of Mans complaining: learne we then hence, how good a God we have that is ſen<g ref="char:EOLhyphen"/>ſible of our condition, hath a
+<note n="y" place="margin">Heb. 4.15. Mat. 6.30,31.</note> feeling of our infirmities, and taketh notice of all our wants, not onely before we mention them, but before we know them. It is our Saviours argu<g ref="char:EOLhyphen"/>ment to his Diſciples, to truſt in him, in the 6. Ch. of St. <hi>Mat. Take no thought what ye ſhall eate, or what ye ſhall drinke, or what ye ſhall put on,</hi> ver. 31. <hi>for your Heavenly Father know<g ref="char:EOLhyphen"/>eth that you have need of theſe things. He knoweth.</hi> Oh how may we cleave and cling to his providence, that thus thinketh of what may be good for us, before we think of it our ſelves; and not onely thinketh of it, but provideth it! What he ſaith here of <hi>Adam,</hi> he ſpeaketh daily by his providences, to his Saints and Servants, my Servant ſuch a one wanteth this and this, I know it. It is not good that my Servant ſuch a one, be ſo and ſo, I ſee it. O what a comfort and cordiall is it to a faithfull Soule, to meditate that thy God is ac<g ref="char:EOLhyphen"/>quainted with, and taketh notice of all the burdens thou groaneſt under, all the neceſſities that oppreſſe thee, all the miſeries that afflict thee: yea and withall remember, he is no bare ſpectator, he hath not onely eyes to ſee thee, but he hath hands to help thee. And ſo I am fallen upon the third and laſt Generall of my Text, when God ſaw, <hi>It was not good that the Man ſhould be alone;</hi> he reſolveth, <hi>I will make him an help.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">general </seg>3</label> Which leadeth me from the Aſſertion, <hi>It is not good,</hi> to the Reſolution, <hi>I will make. I will make him an help meet for him.</hi>
+            </p>
+            <p>Wherein take notice of theſe three particulars;
+<list>
+                  <item>1. The Agent.</item>
+                  <item>2. The Act.</item>
+                  <item>3. The Circumſtance.</item>
+               </list>
+               <list>
+                  <item>The Agent, <hi>I will make.</hi>
+                  </item>
+                  <item>The Act, <hi>An help.</hi>
+                  </item>
+                  <item>The Circumſtance, <hi>Meet for him.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>I will touch on each, beginning firſt with the Agent, <hi>I will make.</hi>
+            </p>
+            <p>
+               <pb n="10" facs="tcp:47041:8"/>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>1</label> The Greek Tranſlators have it in the Plurall,
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the Originall (to which our Tranſlation accords) in the Sin<g ref="char:EOLhyphen"/>gular number,
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>I will make,</hi> which hath occaſioned a queſtion among the Learned.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">question </seg>
+               </label> Why in the making of the Man and Woman, the num<g ref="char:EOLhyphen"/>ber is altered: in the 27. <hi>verſe</hi> of the 1. <hi>Chapter,</hi> at the Cre<g ref="char:EOLhyphen"/>ation of Man the expreſſion is in the Plurall number, <hi>Let us make;</hi> here at the forming of the Woman in the Singular, <hi>I will make.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">answer </seg>
+               </label> Not to ſpend time in repeating the niceties of ſome criti<g ref="char:EOLhyphen"/>call heads, we will ſatisfie our ſelves with that ample and ſo<g ref="char:EOLhyphen"/>lid reaſon of <hi>Paraeus,</hi>
+               <note place="margin">
+                  <hi>Paraeus in loc.</hi>
+               </note> 
+               <hi>ut eundem ſe unum &amp; plures eſſe decla<g ref="char:EOLhyphen"/>ret,</hi> to reveale to us the Myſtery of the Bleſſed Trinity. To ſhew that in the one God there is three perſons: in one place it is ſaid,
+<hi>Let us make.</hi> To convince us that in the three perſons there is but one God; in another place he ſaith, <hi>I will make.</hi>
+            </p>
+            <p>
+               <hi>I will make.</hi> It is an expreſſion that carrieth in it a double Emphaſis;</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">emphasis </seg>1</label> Firſt, <hi>I will make.</hi> I that made Man. I will make Man an help. And ſo it holdeth forth to us the inexhauſtible good<g ref="char:EOLhyphen"/>neſſe of our God,
+<note n="a" place="margin">
+                  <gap reason="foreign" resp="#OXF" extent="1 span">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, &amp;c. <hi>Ch<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>yſost. in Gen. Hom.</hi> 14.</note> 
+               <gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, he heapeth mercies upon mercies, and crowneth one bleſſing with another, day unto day ſheweth forth his good<g ref="char:EOLhyphen"/>neſſe. What is our life but a renewing of favours, a ſucceſ<g ref="char:EOLhyphen"/>ſion of loving kindneſſe? Where is the Man, the Woman whoſe private experience cannot ſpeak abundantly to this particular? What a conſtant variety of love hath thy Soule and mine been fed with? his wayes are not as our wayes. From men the more we have, the leſſe we muſt expect, but He is unwearied in the emanations of his bounty: with him one mercy is but the earneſt of another, a firſt the Herauld and forerunner of a ſecond. In this was <hi>David</hi> confident, 1 <hi>Sam.</hi> 17.37. <hi>The Lord</hi> (ſaith he) <hi>that delivered me from the paw of the Lyon, and out of the paw of the Bear, he will de<g ref="char:EOLhyphen"/>liver me out of the hand of this Philiſtine.</hi> He made no que<g ref="char:EOLhyphen"/>ſtion, but he that had done ſo much, would yet doe more.<pb n="11" facs="tcp:47041:8"/>O that you would all goe and doe likewiſe. Upon this ac<g ref="char:EOLhyphen"/>count henceforward (my Brethren) learne to truſt him. Let former experience encourage you to a future confidence. <hi>Why feare ye, O ye of little Faith?</hi>
+               <note place="margin">Mat. 8.26.</note> Why ſhould we diſtruſt this God, when we have ſo little cauſe for it? Truſt him with thy Body, truſt him with thy Soul, truſt him for Tem<g ref="char:EOLhyphen"/>poralls, truſt him for Aeternalls, truſt him for this life, truſt him for a better. <hi>He is the ſame yeſterday, to day, and for ever,</hi>
+               <note place="margin">Heb.
+13.8.</note> he doth not repent him of his kindneſſe, but increaſe it. That is a firſt conſideration, <hi>I. I that made Man, I will make him an help.</hi> And then</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">emphasis </seg>2</label> 2ly. There is another thing obſervable in this expreſſion, <hi>I will make him an help.</hi> It muſt be <hi>I, I per ſe I,</hi> though Man wants an help, yet Man cannot help his wants: It muſt come from God, <hi>I will make.</hi>
+            </p>
+            <p>It is he that maketh all our comforts and enjoyments. What haſt thou that thou haſt not received?
+<note place="margin">1 Cor. 4.7.</note> What haſt thou that is not of his making? Survey thy ſelfe what thou haſt, and art, and ſpeak if thou canſt find any thing (except corrup<g ref="char:EOLhyphen"/>tion, which is but a privation) that is not of his making. Thou art a Man, a Woman, a rationall Creature: he might have made thee an Ant, a Worm, a Serpent. Thou haſt a plentifull and large ſubſiſtence; he might, and for ought thou knowſt, may make thee a wanderer from door to door. Haſt thou any Spirituall bleſſings? they have all the ſame Author:
+<note place="margin">Job 24.14. 1 Tim. 4.2.</note> Haſt thou a ſoft heart? ſurely that is of his making: it was as hard, harder than the neather Mill-ſtone. Haſt thou a tender con<g ref="char:EOLhyphen"/>ſcience?
+<note place="margin">Revel. 18.2. Iſa. 1.21. Jam. 1.17.</note> ſurely that is of his making; it was ſeared with a hot Iron. Haſt thou a gracious Soule? ſurely that is of his ma<g ref="char:EOLhyphen"/>king: it was a ſinke of filthineſſe. And to allude to that of the Prophet, <hi>Eſay</hi> 1.21.
+<hi>Thus is the Harlot become a faith<g ref="char:EOLhyphen"/>full City.</hi> So true is that of S.
+<hi>James, Chap.</hi> 1. <hi>ver.</hi> 17. <hi>Every good gift, and every perfect gift is from above, and cometh down from the Father of lights.</hi> All our ſprings are in him, and all our ſtreames are from him.</p>
+            <p>
+               <pb n="12" facs="tcp:47041:9"/>
+               <label type="milestone">
+                  <seg type="milestoneunit">application </seg>
+               </label>
+               <hi>To cloſe up this ſuitably to the preſent occaſion.</hi>
+            </p>
+            <p>Hath God undertaken and promiſed to make Helps meet for us? Then that I may ſpeake a word in due ſeaſon) take this advice along with you: when you looke out for an Help; chooſe a Help, chooſe a Wife of Gods making: I doe not mean only of his forming, (ſo are all the daughters of
+<hi>Adam</hi>) but of his reforming. Chooſe one that is Religious, Virtu<g ref="char:EOLhyphen"/>ous, Pious. In the 6. Chapter of <hi>Geneſis, ver.</hi> 2. we reade that <hi>The Sonnes of God ſaw the Daughters of Men that they were faire, and they took them Wives of all which they choſe.</hi>
+               <note place="margin">Gen. 6.2.</note> That is too common. Oh that it were inverted, that the Sonnes of Men would ſee after the Daughters of God! Theſe are faire indeed. If you look into the manners of the world, you may quickly ſee how much need there is of ſuch an Exhortation:<note n="b" place="margin">
+                  <hi>Non ego il<g ref="char:EOLhyphen"/>lam mihi dotem duco eſse quae dos dicitur; ſed ſedatam cupidi<g ref="char:EOLhyphen"/>nem, deûm me<g ref="char:EOLhyphen"/>tûm &amp; parentum amorem &amp; cog<g ref="char:EOLhyphen"/>natûm concor<g ref="char:EOLhyphen"/>diam.</hi> Plautus Amphitr.</note> Portion and Proportion, Wit and Wealth, Beauty and Dowry, theſe Men aime at, but who takes care for Piety? wanton
+<hi>Dinah,</hi> ſubtill <hi>Delilah,</hi> ſcorn<g ref="char:EOLhyphen"/>ning <hi>Michol</hi> ſhall be courted, if ſo qualified; but if not, were ſhe as obedient as
+<hi>Sarah,</hi> as devout as <hi>Hannah;</hi> as well affected as
+<hi>Lydia,</hi> ſhe is contemned and ſlighted. I ſpeak not but that it is lawfull, yea expedient to make theſe our ſubordinate ends, but they muſt not be our only ends. <hi>Hagar</hi> and <hi>Sarah</hi> may dwell together, but remember the Miſtreſſe have the upper hand. I may apply here the words of our Sa<g ref="char:EOLhyphen"/>viour to the Phariſees in another caſe.
+<note n="c" place="margin">Mat. 23.23.</note> 
+               <hi>Theſe things ought ye to have done, but not to have left the other undone.</hi> Seek ye firſt the kingdome of God, and the righteouſneſſe thereof.
+<note n="d" place="margin">Phil. 2.5.</note> 
+               <hi>Let this minde be in you, which was alſo in Chriſt Jeſus,</hi> who in taking the Spouſe he will betroth unto himſelf for ever, look<g ref="char:EOLhyphen"/>eth not at the
+<note n="e" place="margin">1 Pet. 3.3,4.</note> 
+               <hi>outward adorning, but the inward beauty, the hidden man of the heart.</hi> He that bringeth God for an Huſ<g ref="char:EOLhyphen"/>band, his Spirit for a Dowry, and Heaven for a Joynture; accounteth them moſt worthy, that are moſt Holy: <hi>Be ye therefore</hi>
+               <note n="f" place="margin">Ephes 5.1.</note> 
+               <hi>followers of God as deare Children.</hi> It is worth your taking notice of, that it was the expreſſe command of the Lord to the Children of <hi>Iſrael,</hi>
+               <note place="margin">Deut. 7.3.</note> 
+               <hi>Deut.</hi> 7.3. that they<pb n="13" facs="tcp:47041:9"/>ſhould make no Marriages with the <hi>Canaanites. Thy Daugh<g ref="char:EOLunhyphen"/>ter</hi> (ſaith God there) <hi>ſhalt thou not give unto his Sonne, nor his Daughter ſhalt thou take unto thy Sonne.</hi>
+               <note place="margin">
+                  <hi>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> à Lapan loc.</hi>
+               </note> 
+               <hi>Tantùm vetatur hîc, ne miſceant connubia cum Chananaeis quamdiu manent Ido<g ref="char:EOLhyphen"/>lolatrae; naem ſi convertantur,</hi> &amp;c. Theſe are the words of <hi>La<g ref="char:EOLhyphen"/>pide</hi> upon that Text; They were forbidden to marry, becauſe they were Idolatrous, and might ſeduce them from the Lord their God: therefore, <hi>procul hinc, procul ite profanae:</hi>
+               <note place="margin">Rom 15.5.</note> theſe things were written for our inſtruction. Nothing maketh this relation ſo happy as Religion. This is the Salt that ſea<g ref="char:EOLhyphen"/>ſoneth it, this is the Diademe that crowneth it, this is the per<g ref="char:EOLhyphen"/>fume that ſweetneth it. It is a witty obſervation of the <hi>Cabbaliſts,</hi>
+               <note place="margin">Buxtorfius.</note> that if the word
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> which ſignifieth GOD, be ta<g ref="char:EOLhyphen"/>ken out of the words, <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> and
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, which ſignifie Man and Woman, there remaineth nothing but <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> which ſignifieth <hi>fire.</hi> Indeed when God, the love and feare of God, is out of the Man and Woman, the Husband and Wife, there will be little or nothing but fire; nothing but the fire of Paſſion in the Mans heart, nothing but the fire of Pride in the Womans: and this will quickly kindle the fire of con<g ref="char:EOLhyphen"/>tention between both. Let this caution then be in all thy thoughts; let it be ſuch a one that hath Grace in Gods eyes, that ſhall finde Grace in thy eyes. <hi>Foelices ter &amp; ampliùs!</hi> How happy are ſuch Marriages! they are like that of
+<note n="h" place="margin">John 2.2.</note> 
+               <hi>Cana</hi> in
+<hi>Galilee,</hi> where Chriſt is at the wedding: in ſuch a con<g ref="char:EOLhyphen"/>tract, you may ſee triumphant the welcome labour of love, the maſculine delicacies of friendſhip, the genuine bleſſings of ſociety, the obliging union of hands and hearts. He that chooſeth his Wife onely for her forme, her
+<note n="i" place="margin">
+                  <hi>Facies, non ux<g ref="char:EOLhyphen"/>or amatur.</hi>
+               </note> fancy maketh; he that chooſeth her for her wealth, her covetouſneſſe ma<g ref="char:EOLhyphen"/>keth; but he that chooſeth her for her Grace, her God ma<g ref="char:EOLhyphen"/>keth: and if ſhe be thus of his making, aſſure thy ſelfe ſhe will be indeed an Help. Which leadeth me on to my</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>2</label> 2. Particular of this laſt Generall, from the Agent, <hi>I will make,</hi> to the Act, <hi>I will make him an Help.</hi>
+            </p>
+            <p>
+               <hi>An Help. Julian</hi> whoſe accurſed wit was never in its ele<g ref="char:EOLhyphen"/>ment, but when blaſpheming, ſcoffed at this place of Scri<g ref="char:EOLhyphen"/>pture,
+<note place="margin">
+                  <hi>Cyril.</hi>
+               </note> objecting it ſhould have been, <hi>I will make him an</hi>
+               <pb n="14" facs="tcp:47041:10"/>hinderer: for ſo ſhe proved, being the occaſion of our fall and ruine.</p>
+            <p>But, to take off this cavill; in a word, briefly you muſt know, that though ſhe was ſo, this muſt be attributed to Satans temptation, and
+<hi>Eve</hi>'s tranſgreſſion, not Divine in<g ref="char:EOLhyphen"/>ſtitution.<note place="margin">
+                  <hi>Ambroſius.</hi>
+               </note> God created her for an help.</p>
+            <p>
+               <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> By the way obſerve, ſhe muſt be no more; <hi>adjutrix, non Domina;</hi> a Helper, not a Ruler: Let her remember the ſtation where ſhe is placed, the ſphere wherein ſhe muſt act, not affecting dominion, but yielding ſubmiſſion, conſidering her Makers intention in her Creation: <hi>non è vertice</hi> (as <hi>Hie<g ref="char:EOLhyphen"/>rome</hi> excellently)<note place="margin">
+                  <hi>Hieronymus.</hi>
+               </note> 
+               <hi>ſed è late<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e;</hi> not of the head, that ſhe may not be proud, and claime ſuperiority; but of the ſide, that ſhe may be an Help content with an equality.</p>
+            <p>An Help not for generation onely, as ſome would have it, <hi>qui ad generationem reſtringunt, non ſatis conſiderant quid ſit conjugium,</hi> ſaith <hi>Calvin</hi> upon my Text;<note place="margin">
+                  <hi>Calvinus in lo<g ref="char:EOLhyphen"/>cum.</hi>
+               </note> they that reſtraine it ſo ſtrictly, doe not well weigh what Marriage meaneth. The word the Holy Ghoſt maketh uſe of, to deſcribe her by, is of a much larger extent,
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> the <hi>Targum</hi> rendereth it by <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, I will make him a prop, an upholder: the Septuagint <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, I will make him an aſſiſtant, an aide, an help: ſo ſhe was intended: ſo ſhe muſt demeane her ſelfe in theſe following particulars:</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>1</label> Firſt an Helpe ſhe muſt be in Piety. Thus the Apoſtle <hi>Peter,</hi>
+               <note place="margin">1 Pet.
+3.1,7.</note> as he exhorteth Husbands to dwell with their Wives, as men of knowledge; ſo likewiſe Wives to win their Huſ<g ref="char:EOLhyphen"/>bands by their converſations: <hi>haec erat <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n paradiſo potiſſima cauſa foeminae,</hi> &amp;c. ſaith a Learned and Pious expoſitor upon my Text:<note place="margin">
+                  <hi>Parae. in loc.</hi>
+               </note> this was her chiefeſt help in Paradiſe, that Man and ſhe might be companions in their Devotions. And (O) that Man and Wife were ſo ſtill! this would make the whole Earth an <hi>Eden,</hi> a Garden of God; then every Houſe would be a private <hi>Bethel,</hi> and every Family a Church in Epitome. O how good, and how pleaſant a thing it is for the wedded to live together in Piety! when they take ſweet counſell to<g ref="char:EOLhyphen"/>gether, and goe to the Houſe of God in company! when by a reciprocall aſſiſtance, ſuſtaining and leaning upon one ano<g ref="char:EOLhyphen"/>ther,<pb n="15" facs="tcp:47041:10"/>they walke hand in hand together! But <hi>Moſes</hi> had his <hi>Zipporah,</hi> and
+<hi>Abigail</hi> had her <hi>Nabal:</hi> many a good Husband hath a vaine Wife; and many a godly Wife hath a carnall Husband: thus many are diſturbed, if not corrupted. All you therefore, whom God hath joyned together, labour what in you lyeth, to promote and edifie; dare not, however dare not to leaven and ſeduce each other. If you love, ſhew it, O ſhew it in that noble and Chriſtian affection, that ge<g ref="char:EOLhyphen"/>nerous and ſublimated paſſion, that is tender of the better part. Husbands, will ye ſuffer your Wives, the Wives of your boſomes to deſtroy themſelves, and never tell them of it? where is your love to them? Wives can you ſee your Husbands, the Husbands of your vowes, without hope, with<g ref="char:EOLhyphen"/>out Chriſt, without God in the world, and take no notice of it? where is your care for them? O let your indulgence reach to the Soules of one another! <hi>For what knoweſt thou O Wife</hi> (to ſpeak the language of the Apoſtle, 1 <hi>Cor.</hi> 7.16) <hi>whether thou ſhalt ſave thy Husband? or how knoweſt thou O Man, whether thou ſhalt ſave thy wife?</hi>
+               <note place="margin">1 Cor 7.16.</note> doe that, and you wilt doe a courteſie indeed, for which (as inſtruments) in the world to come, you will thank each other with joyfull lips. On the other hand, conſider how ſad and dolefull a thing it will be at the great account, to ſee the Husband and the Wife loading each other with black and tragicall execrations for their ſilent advancing of their mutuall ruine: to heare them indicting and accuſing one another at the tribunall of God, to heare the Woman cry, <hi>the Man, the Man;</hi> to heare the Man ſay, <hi>the Woman, the Woman</hi> that thou gaveſt to be with me, ſhe tempted me, and I did ſinne. Conſider the woe that belongeth to thoſe by whom ſuch offences come.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>2</label> 2ly. A help ſhe muſt be in her progeny, in the breeding and nurtering of her off ſpring, that ſo her children may be Gods children: that thoſe which he ſhall give to her by pro<g ref="char:EOLhyphen"/>creation, ſhe may labour to give back to him by education. Thus
+<hi>Hannah</hi> doth with <hi>Samuel,</hi>
+               <note place="margin">1 Sam.
+1.11.</note> 1 <hi>Sam.</hi> 1.11. ſhe voweth a vow, that if the Lord will give her a Son, by bearing him; ſhe will returne that Sonne to the Lord, by ſerving him. Grace, though Parents cannot be the Authors to confer it, yet they<pb n="16" facs="tcp:47041:11"/>may be the meanes to
+<note n="o" place="margin">P<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ov. 22.6.</note> promote it. And how much are they all concerned in it, to
+<note n="p" place="margin">pheſ. 6 4.</note> bring them up in the nurture and admonition of the Lord? this is the commendatory teſtimo<g ref="char:EOLhyphen"/>niall God giveth of <hi>Abraham, Gen.</hi> 18.19. <hi>I know that he will command his children, and his houſhold after him, and they ſhall keep the way of the Lord.</hi>
+               <note place="margin">G<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n.
+18.19.</note> 
+               <hi>Maximus eſt theſaurus quem parentes filiis relinquunt,</hi> as the Father pithily, It is the beſt Portion they can give them living, the beſt Legacy they can bequeath them dying.
+<note place="margin">
+                  <hi>Quantum putas
+<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>x<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>etaris adj<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLhyphen"/>er boris parenti<g ref="char:EOLhyphen"/>bus, &amp; maximè ma<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>bus, quae majori circa fi<g ref="char:EOLhyphen"/>lios ſolent affectu mov<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ri, cùm vi<g ref="char:EOLhyphen"/>dent vitam fitio<g ref="char:EOLhyphen"/>rum, virtutum tramite relicto, vagari per d<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>via vitiorum?</hi> Bern. de paſſione do n<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>c. 30. <gap reason="foreign" resp="#OXF" extent="1 span">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,
+<hi>Plut. de l. educ.</hi>
+               </note> Remember your children have a long journey to goe, from Earth to Heaven: O let them ſet out be<g ref="char:EOLhyphen"/>times in the morning, leaſt they ſhould be benighted. It was St. <hi>John</hi>'s praiſe, that he followed Chriſt when he was young; It was <hi>Timothie</hi>'s happineſſe, that he knew the Scriptures from a childe. Our Saviour biddeth his Diſciples
+<note n="q" place="margin">Mat. 19.14.</note> ſuffer little children: doe you doe ſomething more, help your lit<g ref="char:EOLhyphen"/>tle children to come unto him.
+<note n="q" place="margin">
+                  <hi>Difficulter era<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>ur quod rudes anni perbiberunt: lanarum conchylia quis in priſtinum candorem rev<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>at,</hi> &amp;c. Hieron. Ep. 7. ad Laetam de inſt. filia.</note> And what <hi>Dives</hi> would have done for his Brethren when it was too late, doe you doe for your children in the accepted time; warne them that they come not into the place of torment. Provide for their Soules as well as their Bodyes, as knowing thoſe tender plants will either be fewell for Tophet, or a nurſery for Hea<g ref="char:EOLhyphen"/>ven.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>3</label> 3ly. A help ſhe muſt be in ſociety. <hi>Ariſtotle</hi> calleth man,
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">
+                  <hi>Ariſt. Ethic.</hi> l. 8 c. 1.</note> an affectionate creature, that delighteth in friendſhip: now the Womans behaviour ſhould be ſuch, as to encreaſe this delight, and requite this affection, that the new-borne love may not be blaſted before it is rooted; that it may never be diſturbed by contention, nor deſtroyed by averſation. I reade in
+<note n="f" place="margin">
+                  <hi>Junoni nupti<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>lirem divinam cùm ficerent è victimá f<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>l ex<g ref="char:EOLhyphen"/>emptum poſt
+<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>
+                     <g ref="char:EOLhyphen"/>ram
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>bjicere, moris fuit receptiſſimi: innuen<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e (opinor) ejus, quiſquis fuit, autore, bilem prorſus iramve à conjugali ſequeſtrandam jucunditate</hi> Coel Rhodig. Ant. lect. l. 28. c. 21.</note>
+               <hi>Rhodiginus,</hi> that it was a cuſtome, when they ſacrificed,
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, to the Goddeſſe of
+<pb n="17" facs="tcp:47041:11"/>Marriages, to take out the Gall and fling it behinde the Al<g ref="char:EOLhyphen"/>tar, to ſhew there ſhould be no Gall or anger, no Strife or Bitterneſſe in the conjugall relation: there muſt be no pro<g ref="char:EOLhyphen"/>voking of one another here, but onely to good works.
+<note n="g" place="margin">
+                  <hi>Baſil Hom.</hi> 7.
+<hi>Hexameron.</hi>
+               </note> 
+               <hi>Ba<g ref="char:EOLhyphen"/>ſil</hi> urgeth it by way of up braiding, to quarelling, and bitter Husbands, that Nature hath taught even the Viper to caſt up his poyſon, when he joyneth with his Female. Surely they are worſe then Vipers, who for the reverence of this Sacred Union, will not abſtain from all Rancor and Venome; things the maritall Love muſt be ſo farre from: this muſt be pure as Light, ſacred as a Temple, laſting as the World. It is the higheſt degree of Friendſhip, the ſtricteſt cord of Amity, and this maketh every breach and jar by ſo much the more culpable. Learne therefore to beare with infirmities, and paſſe by each others ſaylings. The antients in their Ma<g ref="char:EOLhyphen"/>ritall Hieroglyphicks, uſed to paint
+<hi>Mercury</hi> ſtanding by <hi>Venus,</hi> to ſignifie, that by faire language, and ſweet entrea<g ref="char:EOLhyphen"/>ties, the mindes of each other ſhould be united. Love is not more full of paſſion, when it is wholly blinde, than it is of diſcretion, when it will ſometimes winke: This will cover a multitude of ſinnes.<note place="margin">1 Pet. 4.8.</note>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>4</label> 4ly. A Helpe ſhe muſt be in her Family, being not onely a Wife, but an Houſewife: not a Field-wife like
+<hi>Dinah,</hi> nor a Street wife like <hi>Thamar,</hi> nor a Window-wife, like
+<hi>Jezebel,</hi> but an Houſewife. Wherefore <hi>Phidias</hi> when he ſhould draw a Woman, painted her ſitting under a Snailes ſhell, ſignifying that in her life ſhe ſhould imitate that little Crea<g ref="char:EOLhyphen"/>ture, that carrieth the houſe upon the back of it. And as ſuch you may reade her deſcription at large, <hi>Prov.</hi> 31. from the 13. to the 28.<note place="margin">Prov. 31.13,14,15,16, &amp;c.</note> As in the Heavens there are two Lights, the greater to rule the Day, the leſſer to rule the Night; ſo here on the Earth, there is the Man the greater light, to rule the Publick; the Woman the leſſer light, to take care of domeſticall affaires. Thus Marriage is called <hi>conjugium,</hi> from <hi>jugum,</hi> a yoke; when thoſe that are joyned together, have a reciprocall and relative intereſt in each others actions, both promoting the ſame deſigne, in their ſeverall capacities. Where cattell are yoked together, ſhould one draw, and the
+<pb n="18" facs="tcp:47041:12"/>other ſtand ſtill, much more, if the one pull forward, and the other hale backward, they would but tire each other, both muſt put to their ſtrength proportionably: and ſo here
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">
+                  <hi>Ariſtot. Polit. l.</hi> 3. <hi>c.</hi> 4.</note> the yoke-fellows have each their taske and burthen: the Man muſt doe his part, by providing induſtri<g ref="char:EOLhyphen"/>ouſly, the Woman muſt doe her part, by preſerving diſcreet<g ref="char:EOLhyphen"/>ly: the Man muſt doe his part, not neglecting careleſly; the Woman muſt doe her part, not waſting prodigally: fi<g ref="char:EOLhyphen"/>nally, the Man muſt doe his part abroad. the Woman muſt doe her part at home: the Man muſt doe his part by getting, the Woman muſt doe her part by ſaving. I queſtion not but you are acquainted with your particular duties; this is not a place to reade a Lecture of Oeconomicks. I paſſe on.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>5</label> 5ly. And laſtly to include all: A Help ſhe muſt be in all thoſe duties, which in her Contract ſhe hath engaged for, in the preſence of God and Men. By ſolemne proteſtation ſhe layeth upon her ſelfe an obligation to performe them, and it will be required at her hands; <hi>non tam respiciendum cui juramus, quàm per quem juramus,</hi>
+               <note place="margin">
+                  <hi>Lomb.</hi> 3. <hi>ſent. diſtinct.</hi> 39.</note> you ſtand bound by promiſe to the moſt High, and to him ſhall the vow be per<g ref="char:EOLhyphen"/>formed. The wiſe man telleth you,
+<hi>Eccleſ.</hi> 5.5. <hi>Better it is that thou ſhouldſt not vow, then that thou ſhouldſt vow, and not pay.</hi>
+               <note place="margin">Eccleſ.
+5.5.</note> Forget not thy engagements, and remember to ob<g ref="char:EOLhyphen"/>ſerve them.
+<hi>Quàm gravia vincula ſunt vota!</hi> It is <hi>Ambroſe</hi>'s exclamation, <hi>major eſt contractus fidei quàm pecuniae.</hi>
+               <note place="margin">
+                  <hi>Amb. l.</hi> 9. <hi>in Lu<g ref="char:EOLhyphen"/>cam ad cap.</hi> 20.</note> You are miſtaken that look upon the Matrimoniall vowes, onely as things of cuſtome and formality: know the Heavens heare, and the Earth hearkneth to them; and if they are broken, ſhall teſtifie againſt you for diſſembling with the Almighty, and deluding of his Creature, by making promiſes, which you forget and falſifie.</p>
+            <p>
+               <pb n="19" facs="tcp:47041:12"/>
+               <label type="milestone">
+                  <seg type="milestoneunit">application </seg>1</label>
+               <hi>That I may draw to a concluſion of this particular.</hi>
+            </p>
+            <p>Doth God call the Woman here an Help? Then this might ſerve in the firſt place to correct the unlawful vanity of ſuch, that imploy their wits to vilifie and diſparage them; that ſtuffe their diſcourſes with a Catalogue of their weakneſſes, ſcarce ever mentioning them without a Satyr: whoſe beſt language is to give them <hi>Cato</hi>'s periphraſis, that they are ne<g ref="char:EOLhyphen"/>ceſſary evills, condemning the frame of all, for the faults of ſome; as if it were a conſequence, that becauſe ſome are bad, therefore none are good. Is this their thanks to their Maker, to raile at the worke of his hands? But what <hi>Tertullian</hi> ſaid of Hereticks, I may ſay here, <hi>detegere eſt refutare, Many Daughters have done vertuouſly.</hi>
+               <note place="margin">
+                  <hi>Tertul. Prae<g ref="char:EOLhyphen"/>ſcript.</hi> Prov.
+31.29.</note>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">application </seg>2</label> 2ly. Is Woman an Help to Man? The Wife an Help to the Husband? Then this may teach Husbands to be Helps to them againe. It is the Poets deſcription of an Husband,
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">
+                  <hi>Homer.</hi>
+               </note> he is to his Wife; Father, Mother, Brother: and great reaſon for it, unleſſe the ſtate of Mariage ſhould be no better than the condition of an Orphan: for ſhe that leaveth all theſe rela<g ref="char:EOLhyphen"/>tions for him, will be a great loſer, if ſhe doe not finde them all tranſlated in him. I am afraid <hi>Medea</hi>'s complaint in
+<hi>Eu<g ref="char:EOLhyphen"/>ripides</hi> may be taken up by too many Wives,
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp;c.<note place="margin">
+                  <hi>Euripides Med.</hi>
+               </note> 
+               <hi>Ambroſe</hi> hath al<g ref="char:EOLhyphen"/>moſt tranſlated it,<note place="margin">
+                  <hi>Ambroſ Exhort, ad Virgines.</hi>
+               </note> Virgins are with their owne Money ſold to miſery, and their owne portion is the too deare price of a ſervile ſubjection. True it is, the Husband is the
+<note n="*" place="margin">1 Cor 11.3.
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>Phil. in Gen.</hi>
+3.12.</note> head of his Wife, and ſo hath dominion over her: but it is ſuch as the Soul hath over the Body, to take care for it and help it. Their help is mutuall; the Soule furniſheth the Body with light and underſtanding, the Body requiteth the Soul with hands and feet: and ſo it muſt be here: ſhe that hath parted with all her helps for thee, ſhe that hath imparted all her help to thee, hath good reaſon to expect and meet with all help from thee. As the Earth ſendeth up all its vapours, and pro<g ref="char:EOLhyphen"/>per
+<pb n="20" facs="tcp:47041:13"/>emiſſions at the command of the Sunne, and yet requi<g ref="char:EOLhyphen"/>reth them againe to refreſh her owne need, and they are depoſited between them both, in the boſome of a cloud, as a common receptacle; that as they have aſcended to coole his flames, ſo they may deſcend to make her fruitfull: ſo are the proprieties of a Wife to be diſpoſed of by her Husband: they ſerve the intereſt of both, while they ſerve the neceſſi<g ref="char:EOLhyphen"/>ties of either. Now ſhe is a part of thy ſelfe, <hi>corporis dimi<g ref="char:EOLhyphen"/>dium tui,</hi>
+               <note place="margin">Gen. 2.23.</note> bone of thy bones, and fleſh of thy fleſh, and therefore nouriſh her and cheriſh her. It is the Apoſtles conſequence, <hi>Eph.</hi> 5.28,29.<note place="margin">Epheſ.
+5.28,29</note>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">application </seg>3</label> 3ly. Is Woman to be an Help to Man? Then let this teach you all whom it may concerne, the end of your conjugall condition. I may ſay in another ſenſe, then <hi>Verus</hi> meant it, <hi>uxor dignitatis, non voluptatis nomen,</hi>
+               <note place="margin">
+                  <hi>Coel. Rhod. Aut. lect. l.</hi> 18. <hi>c.</hi> 13.</note> Wife is not a name of Pleaſure, but of Honour: you are to be Helps to thoſe, to whom God hath joyned you: This was Gods end, <hi>I will make him an Help. Potuit ſimpliciter dicere, faciam ei foemi<g ref="char:EOLhyphen"/>nam,</hi> ſaith <hi>Ferus;</hi> he might have ſaid, I will make him a Woman, but he rather maketh choice of a Periphraſis, which ſpeaketh what the Woman ſhould be, ſhe ſhould be an Help. So you are ſtyled: walke worthy of the vocation, wherewith ye are called.
+<note place="margin">Eph. 4.1.</note> I never affected raking of ſinkes, or handling ſores: but I cannot but tell you, there are too many of your ſexe in the world, ſo farre from deſerving their name, that they may more properly be called a Croſſe, than as here, an Help. How doe theſe degenerate from the end, for which God intended them, turning
+<hi>Antipodes</hi> to their duty? Theſe are they (<hi>L</hi> and <hi>G.</hi>) that have injured you, as the fearfull ſpyes did <hi>Canaan,</hi> brought up an evill report of you, and loaded your ſexe with ſuch opprobrious Epithets.<note place="margin">Num<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 13
+32.</note> Helps to nothing but Vanity, Poverty &amp; diſcontentment.
+<hi>Jerome</hi> ſome<g ref="char:EOLhyphen"/>where hath a quaint deduction from the creating of the Wo<g ref="char:EOLhyphen"/>man. <hi>E latere deſumpta,</hi> &amp;c. He loſt a Rib for her making, w<hi rend="sup">th</hi> weakned him enough: ſhe had need to doe all ſhe can to re<g ref="char:EOLhyphen"/>quite him by her helping him. We uſually ſay of Women, they are helpleſſe Creatures: if they are ſo, the fault is not in Nature, but in themſelves, they were Created to be help<g ref="char:EOLhyphen"/>full:<pb n="21" facs="tcp:47041:13"/>or grant (as it is true in many things) they are help<g ref="char:EOLhyphen"/>leſſe to themſelves; this ſhould be the greater argument to incite them, in all they may, to be Helps unto their Huſ<g ref="char:EOLhyphen"/>bands, <hi>de latere ſumpta non diſcedat à latere,</hi> ſaith <hi>Auguſtine,</hi>
+               <note place="margin">
+                  <hi>Auguſtinus.</hi>
+               </note> She was taken out of his ſide; let her not depart from his ſide, but ſhew her ſelfe as much as ſhe was made for,
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> an Help. An Help to promote his Piety, an Help to breed up their Progeny, an Help to ſweeten their ſociety, an Help to uphold their Family, finally an Help in her whole duty: then indeed ſhe will be</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>3</label>
+               <hi>Meet for him,</hi> which is the laſt Particular of this laſt Ge<g ref="char:EOLhyphen"/>nerall, and now cometh forth to crave your attention. <hi>I will make him an Help</hi>
+            </p>
+            <p>
+               <hi>Meet for him.</hi>
+               <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> The Hebrew word is variouſly ren<g ref="char:EOLhyphen"/>dred by Expoſitors: ſome tranſlate it, <hi>ex adverſo ejus,</hi> ſome <hi>coram ipſo,</hi> others <hi>aſtans ei,</hi> others <hi>commodum ipſi;</hi> the ſence is almoſt the ſame in all, onely the words are different: oc<g ref="char:EOLhyphen"/>caſioned perhaps by the fulneſſe of the expreſſion in the O<g ref="char:EOLhyphen"/>riginall, which cannot without ſome diſadvantage be brought into another language. The Septuagint (I think) come as neer as may be, who render it here, <gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">70.</note> and in the 20. verſe of this Chapter,
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; <hi>I will make him an help, juxta correspondentiam ejus,</hi> (as <hi>Buxtorfius</hi>)<note place="margin">
+                  <hi>Buxtorfius.</hi>
+               </note> ſuitable to him, correſpondent and proportionable. <gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſaith
+<hi>Chryſoſtome,</hi>
+               <note place="margin">
+                  <hi>Chryſoſt.</hi>
+               </note>
+               <gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp;c
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. God had made Man many helps before he placed him in Paradiſe, and gave him dominion over the ſeverall Creatures, ſome whereof were helps to feed him, ſome to eaſe him, ſome to delight him: but among them all there was not a Help
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> that was meet for him, agreeable to his temper, ad<g ref="char:EOLhyphen"/>equate to his nature: this is onely to be found in the Woman who is properly <hi>adjunctorium ſimile ſibi,</hi> as ſome reade the words, a Help meet, fit for him.</p>
+            <p>Fit and meet ſhe is, (to look no farther) in theſe foure par<g ref="char:EOLhyphen"/>ti<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ulars.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>1</label> Firſt, Shee is a Meet Help in regard of her Nature, being a rationall Creature, inſpired with ſuch a Soule, and capa<g ref="char:EOLhyphen"/>ble<pb n="22" facs="tcp:47041:14"/>of the ſame enjoyments with her
+<hi>Adam.</hi> The Angells were too much above him, the Beaſts were as much below him; the one he could not reach to, the other he could not ſtoop to: but the Woman is a Parallel line that runneth e<g ref="char:EOLhyphen"/>quall with him; a competent companion for his ſeverall im<g ref="char:EOLhyphen"/>ployments, a convenient partner for his particular engage<g ref="char:EOLhyphen"/>ments. She moveth in the ſame orbe, walketh in the ſame paths, tendeth to the ſame center: ſhe is actuated by the ſame principles, enjoyned the ſame precepts, made of the ſame fleſh with him. Which is a firſt particular, wherein ſhe is meet for him, in regard of her nature.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>2</label> 2ly. Meet for him ſhe is in regard of her forme, being of a like ſhape and feature.
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſaith the Philoſopher:<note place="margin">
+                  <hi>Ariſtot. Eudem. l</hi> 7. <hi>c.</hi> 2.</note> likeneſſe breedeth delight, and every creature by a commanding inſtinct, aſſo<g ref="char:EOLhyphen"/>ciateth it ſelfe with thoſe of its own ſpecies. Now before the Woman was created, Man was, (as the Pſalmiſt complaineth of himſelfe in another caſe, <hi>even as a Pelican in the wilder<g ref="char:EOLhyphen"/>neſſe, as a Sparrow on the houſe top, deſolate and lonely.</hi>
+               <note place="margin">Pſalm
+102.6,7.</note> The reſt of the Creatures could goe by paires, Turtles had their Mates, and Males their Females; but Man hath none, he is ſingle and ſolitary. But though he be ſo, it is not good he keep ſo; wherefore that no inconvenience may be unre<g ref="char:EOLhyphen"/>medied, that no defect may be unſupplyed, the Lord God provideth, that he ſhall have an Help that is meet for him.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>3</label> 3ly. Meet for him ſhe is in regard of her Affections: ſhe being tender and communicative. Brutes that have nothing but ſenſe to rule them, are onely ſubject to the fierce and ruder paſſions, and to them likewiſe in the moſt violent ex<g ref="char:EOLhyphen"/>tremities: but in Man, the pleaſing and ſoft affections, are both more ſtrong and naturall. No Creature ſo ſublimated in Joy, ſo prodigall in Love, ſo generous in both. But before <hi>Eve</hi> is formed, there is no imployment upon Earth, there is no requitall of theſe affections; her being bringeth occaſion for both: now there is a ſweet and ingenuous ex<g ref="char:EOLhyphen"/>change of themſelves, a defecated and reciprocall delight in one another: nothing that is here before, was capable either of receiving, or returning ſuch noble Emanations: at<pb n="23" facs="tcp:47041:14"/>length ſhe cometh, who in Affections and for affections is meet for him.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>4</label> 4ly. Meet for him ſhe is in regard of Diſcourſe, uſing the ſame utterance. <hi>Apollonius Thyaneus</hi> vaunted, that he un<g ref="char:EOLhyphen"/>derſtood the meaning of Birds and Bruits, by thoſe confuſed ſounds we heare from them: and <hi>Gregory</hi> telleth us, that the Angells, <hi>per ſublimes &amp; incognitos modos,</hi>
+               <note place="margin">
+                  <hi>Greg. Mor.</hi> 2. <hi>c.</hi> 5.</note> after a hidden and ſecret manner ſpeak to one another. Certaine it is, that to all ſociety there is required a communicating of their mutu<g ref="char:EOLhyphen"/>all purpoſes, an unveyling and diſcovering of their ſeverall intentions: and this <hi>Adam</hi> cannot doe to the Rocks and Trees, to the Fowles and Fiſhes, he cannot diſcloſe his minde to ſuch things as theſe: he wanteth one like himſelfe, to whom he may unlock his thoughts, and open his Soul. Were there ſuch a one, they might acquaint each other with the ſecret and private workings, with the dark and curtained mo<g ref="char:EOLhyphen"/>tions of their hearts, and ſuch a one is the Woman, who as for other things, ſo for her diſcourſe likewiſe is meet for him.</p>
+            <p>And by this time I ſuppoſe you will eaſily grant me, that of all the helps man had in Paradiſe, the Woman only was the Help.
+<gap reason="foreign" resp="#OXF" extent="1 span">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+            </p>
+            <p>That I may now bring up my diſcourſe to you, and with as much haſt as may be, draw all to a concluſion: as you have ſeen that the Woman among the Creatures, ſo learne to ſee that the Wife among Women, be an Help that is Meet for you: if ſhe be not; I will aſſure you, it were better for that Man that he ſhould be alone.</p>
+            <p>She muſt be an Help Meet, that is fitly qualified for a Wife; and then ſhe muſt be an Help meet for him that is fitly qua<g ref="char:EOLhyphen"/>lified for his Wife. Of the former of theſe before, when you heard in what; of the later now, when we are to enquire for whom ſhe muſt be an Help, ſhe muſt be meet for</p>
+            <p>Him. <hi>Eve</hi> for <hi>Adam,</hi> every Woman for that particular Man, to whom God ſhall joyne her.
+<note place="margin">Lev. 19.19.</note> Under the Law, ſeeds of ſeveral ſorts were not to be ſowed in one ground, Linnen and Woollen were not to be mingled in one Garment, and Cattel of divers kindes were not to gender.
+<note place="margin">
+                  <hi>Cajetanus.</hi>
+               </note>
+               <hi>Cajetan</hi> thinketh theſe <pb n="24" facs="tcp:47041:15"/>things are not to be underſtood Literally; but Symbolically. Not to diſpute that, thus much we may learne as to our pre<g ref="char:EOLhyphen"/>ſent purpoſe, the method and decency, the order and pro<g ref="char:EOLhyphen"/>portion that muſt be obſerved in it: to ſpeak in the language of the Apoſtle, 2
+<hi>Cor.</hi> 6.14. <hi>There muſt be no unequall yoking.</hi>
+               <note place="margin">2 Cor. 6.14.</note> It is not ſufficient that the Wife be good, but ſhe ſhould be alſo fit; not enough that ſhe ſhould be vertuous, unleſſe ſhe be to that ſuitable. Husbands and Wives are like Locks and Keyes, they rather break then open, unleſſe the Wards are anſwerable. Divers Men, though in themſelves unblame<g ref="char:EOLhyphen"/>able, are not fit for ſome Women; and divers Women, though in themſelves commendable, are not fit for ſome Men. And whence come debates and diſagreeings, diſcontents and jar<g ref="char:EOLhyphen"/>ings? are they not from hence? make them fit, and there will be no ſtrife; were they even, there would be no odds. Some Rabbines that held the pre-exiſtency of humane Soules, were of opinion, that in the beginning of the world, Soules were created by paires, Male and Female, and from hence (ſay they) it came, that Mariages were proſperous, or unſucceſſe<g ref="char:EOLhyphen"/>full:<note place="margin">
+                  <hi>Menaſseb ben. Iſraol de term. vit. l.</hi> 3.
+<hi>ſect.</hi> 5.</note> he that matched to that perſon that was created with him was happy; but he that miſſed her, and was joyned to a<g ref="char:EOLhyphen"/>nother, was miſerable. Thus much is true of it: without doubt thoſe that are coupled together, and are unmeet, will be no helps. From hence it was, ſome thinke, came the firſt uſe of that Ceremony of the Ring in Weddings, <hi>viz.</hi> to re<g ref="char:EOLhyphen"/>preſent this fitneſſe: that, if it be ſtraiter then the finger, it will pinch; if it be wider, it will fall off; but when it is fit, it neither paineth nor ſlippeth: And thus it is with the Wife: if ſhe be too little, ſhe pincheth with diſgrace; if ſhe be too big, ſhe falleth off by diſdaine: they fit the cloſeſt both for uſe and ornament, that are moſt fit and equall. Wherefore Mariages are called Matches, implying they ſhould be, ſo, not onely upon a Morall, but as much as may be, upon a Civil account. I cannot ſtay: take the ſumme of all in theſe three particulars. Shee muſt be meet in
+<list>
+                  <item>1. Religion.</item>
+                  <item>2. Diſpoſition.</item>
+                  <item>3. Education.</item>
+               </list> 
+               <pb n="25" facs="tcp:47041:15"/>A word of each:</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>1</label> Firſt, meet ſhe muſt be in Religion: what fellowſhip hath Righteouſneſſe with unrighteouſneſſe? and what communion hath light with darkneſſe? and what concord hath Chriſt with <hi>Belial?</hi> or what part hath he, that believeth with an In<g ref="char:EOLhyphen"/>fidell? You heard before,<note place="margin">2 Cor.
+6.14,15</note> ſhe muſt have Religion as to her converſation: now know alſo, ſhe muſt have the ſame Reli<g ref="char:EOLhyphen"/>gion as to her profeſſion. This exhortation may to ſome ſeem needleſſe, in this Land we live in, in regard we all wor<g ref="char:EOLhyphen"/>ſhip the ſame God, and are called by the ſame name. But when I have ſadly pondered, the many Diviſions and Diſtra<g ref="char:EOLhyphen"/>ctions, the Schiſm and Factions, the wide breaches, and the wilde confuſions that are among us, whereby the <hi>Father is divided againſt the Son, and the Son againſt the Father;</hi>
+               <note place="margin">Luke 12.53.</note> 
+               <hi>the Mother againſt the Daughter, and the Daughter againſt the Mother,</hi> ſaying,
+<hi>Loe here is Chriſt, and there is Chriſt:</hi> Chriſt in this Church, and Chriſt in that Church, and Chriſt in no Church: this being the juncture, or rather ſad diſ-juncture of things among us, I ſay that conſideration prevailed with me, to premiſe this caution, that ſhe be meet in Religion.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>2</label> 2ly. Meet ſhe muſt be in diſpoſition. I have read of an ingenious policy among the
+<hi>Athenians,</hi> that before they placed out their Children to any ſetled courſe of Life, they brought them into a Room for that end, ſtored and furniſhed with all kinde of variety, and narrowly obſerving, with what there they were moſt delighted, bred them up accordingly:
+<note place="margin">
+                  <hi>Pa<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>mam haſt a<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLunhyphen"/>que tenenti Nate de<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> d<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>xi, t<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>biſe peritura reſer<g ref="char:EOLhyphen"/>vant Pergama,</hi> Naſ. 1. M<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t. l.
+3.</note> If with Engines, to Manufactures; if with Books, to Lear<g ref="char:EOLhyphen"/>ning, &amp;c. Firſt they ſtudied their Tempers, and then they ſuited their Imployments: ſomething anſwerable is to be obſerved, before the entrance into the ſtate of Wedlock. It behooveth thee firſt to be acquainted with thy ſelfe well, thy owne propenſions, genius, and inclinations; and then with thy choice, whether ſhe be analogicall, and correſpondent, then there will be a Pleaſure and Sympathy, a Conſent and Harmony, conſtant and uninterrupted: ſhe will be thy pi<g ref="char:EOLhyphen"/>cture, and thou wilt be her looking glaſſe; and you may both enjoy, behold, and cheriſh your ſelves in one another: but Fire and Water, if together, are alwayes wrangling, the
+<pb n="26" facs="tcp:47041:16"/>Fire heateth the Water, and the Water quencheth the Fire: contraries will diſturb each other.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">particular </seg>3</label> 3ly. Meet ſhe muſt be in Education. Some of our <hi>Euro<g ref="char:EOLhyphen"/>pean</hi> Nations are ſo ſtrict in this particular, that it is againſt their Lawes, for the Commonalty to Marry with the Gen<g ref="char:EOLhyphen"/>try; becauſe though other things might be convenient, yet their breeding hath been different: though that be ſomething too rigorous, alwayes to be obſerved inviolable: yet com<g ref="char:EOLhyphen"/>mon prudence, and experience telleth us, that they live moſt contented that are moſt equall, there being moſt unity, where there is moſt ſymmetry. If the Wife be too much above her Husband, doe you not commonly ſee, ſhe either ruineth him with expences, or revileth him with reproaches? If too much below him, it is as uſuall; either her former condition ma<g ref="char:EOLhyphen"/>keth her too generous, or her preſent mutation maketh her too imperious. Wherefore let not thy ambition carry thee too much above thy ſelfe, nor thy indiſcretion hurry thee too much below thy ſelfe: he that reacheth too high may over<g ref="char:EOLhyphen"/>ſtraine, he that ſtoopeth too low may fling downe himſelfe; but he that ſtandeth upright, is probably in far leſſe danger, either of hurting or falling.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">application </seg>
+               </label> I will winde up all in a double admonition, the one to Huſ<g ref="char:EOLhyphen"/>bands, how to chooſe their Wives; the other to Wives, how to behave themſelves towards their Husbands.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">admonition </seg>1</label> Firſt, To Husbands how to chooſe their Wives As King <hi>Porus</hi> when <hi>Alexander</hi> (whoſe Priſoner then he was) asked him how he would be uſed, anſwered in one word, <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, that is, like a King;
+<hi>Alexander</hi> again replyed, doe you de<g ref="char:EOLhyphen"/>ſire nothing more? No, ſaith he, all things are in <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. In like manner, in the argument we are now about, it will hold as fully. Is it not good for any of you to be alone, and would you know how to chooſe an Help upon a civill ac<g ref="char:EOLhyphen"/>count? I may anſwer alſo in one word,
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, chooſe her fit, meet for you. The direction is but ſhort, but it is excee<g ref="char:EOLhyphen"/>ding emphaticall, and comprehenſive: would men but fol<g ref="char:EOLhyphen"/>low it, and conforme to it, you would ſee none of thoſe ſhamefull anomalies, none of thoſe raſh and ridiculous ine<g ref="char:EOLhyphen"/>qualities, that are too oft compounded in the conjugall rela<g ref="char:EOLhyphen"/>tion.
+<pb n="27" facs="tcp:47041:16"/>But there are two grand Enemies to all decency and or<g ref="char:EOLhyphen"/>der, prudence and proportion; you know they are <hi>Money</hi> and <hi>Fancy;</hi> theſe commit the diſturbancies, and are guilty of all the Riots: where either of theſe is predominant, they will ſtick at no irregularity, they will wink and ſwallow even the worſt of abſurdities. Thus ſome Fathers will ſel their unwilling Children, ſome Children grieve their indulgent &amp; more expe<g ref="char:EOLhyphen"/>rienced Parents: on the one hand, Parents through a ſordid covetouſneſs, are tyrants to children, on the other hand chil<g ref="char:EOLhyphen"/>dren through an unreaſonable wilfulneſſe, are diſobedient to Parents: the Father commonly looketh only at the Purſe, and the Child as uſually mindeth nothing but the Perſon; the one looketh that the party be Rich, the other looketh that they be handſome: it may be neither queſtioned whether they be meet for thee.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">admonition </seg>2</label> That I may conclude: Let it learn Wives likewiſe how to behave and demeane themſelves with their Husbands, namely as Helps meet for them. In the Civill Law, a Servant is ſaid to be <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> one that ſuſtaineth no perſon, but is a dependant and adjunct to his Maſter, to accommodate his will to the will of his Maſter. The Wife is not the Servant, but companion of her Husband, but yet ſhe is <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> alſo, one that ſuſtaineth no p<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rſon diſtinct from her Husband, and therefore muſt doe all things as is meet for him.</p>
+            <p>The Man ſaith of his Wife, when firſt created, <hi>ſhe is bone of his bone, and fleſh of his fleſh;</hi>
+               <note place="margin">Gen.
+2.23.</note> and ſo the Wife muſt look upon her Husband, when once they are Married, <hi>as bone of her bone, and fleſh of her fleſh,</hi> they are now united: all her promotion, intereſt, contentment, is joyned to his: both their particu<g ref="char:EOLhyphen"/>lars are bound up in one general, and like <hi>Hippocrates</hi>'s twins, they live and dye together. It behoveth her then to remem<g ref="char:EOLhyphen"/>ber in all her actions, that nothing is fit for her, that is not meet for him. Let her then (I ſee I muſt have done) let her ſhew her ſelfe ſo, in every thing meet for him: meet for his Piety, by her fervent exciting; meet for his Progeny, by her carefull nurturing; meet for his Family, by her provident o<g ref="char:EOLhyphen"/>verſeeing; meet for his Affections, by her endearing compla<g ref="char:EOLhyphen"/>cence; meet for his Will by her ſweet compliance; meet for <pb n="28" facs="tcp:47041:17" rendition="simple:additions"/>his Diſpoſition, by her prudent obſervance; meet for his E<g ref="char:EOLhyphen"/>ſtate, by her proportionable expences; meet for his Health, by her moſt tender preſerving; meet for his Sickneſs, by her moſt diligent reſto<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ing; meet for his Proſperity, by her ſober gratulation; meet for his Adverſity, by her patient ſubmiſ<g ref="char:EOLhyphen"/>ſion: finally, meet in all things, by her dutifull converſation. Thoſe that have ſuch Wives as theſe, what the Almighty de<g ref="char:EOLhyphen"/>creed in my Text for <hi>Adam,</hi> he hath performed for them: Seeing it was not good that they ſhould be alone, he hath made them helps that are meet for them.</p>
+            <p>At length (my beloved) my Text is finiſhed, and I ſhould now diſmiſſe you, but caſting my eye upon this new-joyn'd paire, the occaſion of this dayes ſolemnity. I cannot let them goe untill they have a bleſſing: and it ſhall be that of the people at the wedding of
+<hi>Boaz, Ruth</hi> 4 11. <hi>The Lord make the Woman that is come into thy Houſe like</hi> Rachel, <hi>and like</hi> Leah, <hi>which two did build the houſe of the Lord.</hi>
+               <note place="margin">Ruth 4 11.</note> The Lord make her fruitfull as <hi>Leah,</hi> pleaſing as <hi>Rachel.</hi> The Lord make her like <hi>Martha,</hi> and like <hi>Mary,</hi> which two enter<g ref="char:EOLhyphen"/>tained our Saviour. The Lord make her like <hi>Mary</hi> for her Piety, like <hi>Martha</hi> for her induſtry.</p>
+            <p>The Lord make the Man into whoſe houſe thou com<g ref="char:EOLhyphen"/>eſt, like
+<hi>Jacob,</hi> and like <hi>Joſeph,</hi> which two were fa<g ref="char:EOLhyphen"/>mous in their Generations. The Lord make him like <hi>Joſeph</hi> for his conſtancy, like
+<hi>Jacob</hi> for his frugality. The Lord make him like <hi>Joſhuah,</hi> and lik<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>Caleb,</hi> which two fought the battells of the Lord. The Lord make him like <hi>Joſhuah</hi> for his zealous ſervice, like <hi>Caleb</hi> for his other ſpirit.</p>
+            <p>The Lord make you both like <hi>Abraham,</hi> and like
+<hi>Sarah,</hi> which two walked with God. The Lord make thee like
+<hi>A<g ref="char:EOLhyphen"/>braham</hi> for his fidelity &amp; thee like <hi>Sarah</hi> for her conformity. The Lord make you both like <hi>Zachary,</hi> and like
+<hi>Elizabeth,</hi> which two walked in all well pleaſing. I he Lord make thee like <hi>Zachary</hi> for his holineſſe, and thee like
+<hi>Elizabeth</hi> for her humble eſſe: finally to pray for all things in the words of my Text, The Lord make you both mutuall Helps one to a<g ref="char:EOLhyphen"/>nother here, and eſpouſe you both unto himſelfe for ever.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:47041:17"/>
+         </div>
+      </body>
+   </text>
+</TEI>
